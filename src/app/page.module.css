@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.main {
+  display: grid;
+  grid-template-columns: 0.5fr 10fr;
+  height: 100vh;
+  align-items: flex-start;
+}
+.fonth {
+  font-family: "Heebo";
+  color: #717171;
+  font-size: small;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.marg_left{
+  margin-left: 1.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.sub {
+  color: #2c7be5;
+  font-size: small;
+}
+.left {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #002244;
+  gap: 6rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.font {
+  font-family: "DM Sans";
+}
+.fontI {
+  font-family: "Inter";
+}
+.fontP {
+  font-family: "Poppins";
+}
+
+.flx {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.lp {
+  font-family: "DM Sans";
+  color: #b8b8b8;
+
+  font-weight: 590;
+  font-size: 13px;
+  display: none;
+  margin-top: .4rem;
+  margin-bottom: 0.2rem;
+}
+.focus {
+  color: #ffa823;
+}
+.flxc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  transform: translateY(-70px);
+}
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #FFA822;
+  width: 218px;
+  padding: 1rem;
+  align-self: flex-start;
+  gap: 0.5rem;
+  border-radius: 11px;
+  margin-left: 1rem;
+}
+
+.info {
+  background-color: #2c7be5;
+  padding: 0.3rem 1rem;
+  border: none;
+  border-radius: 100px;
+  color: white;
+}
+.wh {
+  color: #2D3748;
+  font-family: "DM Sans";
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  width: 100%;
+  border-radius: 11px;
+  padding: 0.3rem 0;
+}
+.left {
+ 
+}
+.On {
+  display: inline;
+  color: #2c7be5;
+}
+
+.right {
+  height: 100vh;
+  background-color: #f3f6f9;
+}
+.flex {
+  display: flex;
+}
+.flex_ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+}
+.pg {
+  color: #a3aed0;
+  font-size: small;
+  font-family: "DM Sans";
+}
+.gap {
+  gap: 0.4rem;
+}
+.same {
+  color: #2b3674;
+  font-family: "DM Sans";
+  font-size: small;
+}
+.top {
+  margin: 1rem 0rem 1rem 1.5rem;
+  background-color: white;
+  justify-content: space-between;
+  width: 95%;
+  padding: 1rem 1rem;
+  border-radius: 11px;
+}
+.icon {
+  height: 21.39px;
+}
+.alt {
+  height: 21.9px;
+}
+.catfont {
+  color: #0057AD;
+  font-weight: 600;
+  font-size: larger;
+  font-family: "DM Sans";
+}
+.btnlst {
+  background-color: white;
+  padding: 1rem 1rem;
+  margin: 1rem 0rem 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  border-radius: 11px;
+  align-items: center;
+  gap: 0.5rem;
+}
+.title {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  padding: 0.2rem 0;
+  background-color: #F3F6F9;
+  width: 95%;
+  margin-left: 1.5rem;
+}
+.huge {
+  gap: 0.5rem;
+}
+.ulc{
+  margin-left: 1.8rem;
+  background-color: white;
+  width: 95%;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(6, 0.5fr);
+  background-color: transparent;
+}
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+.button_box {
+  width: fit-content;
+  padding: 0.3rem 0.3rem;
+  position: relative;
+  border-radius: 30px;
+  background-color: #e5e5e5;
+}
+
+.toggle_btn {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  font-family: "Nunito";
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+  font-size: small;
+}
+
+.btnbox {
+  left: 0px;
+  top: 0;
+  height: 100%;
+  background: #e67e22;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.btnbx {
+  left: 0px;
+  color: #777777;
+
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.end {
+  padding-left: 2rem;
+  gap: 2rem;
+}
+.dropdown {
+  padding: 0 1rem;
+  border-radius: 9px;
+  margin-left: 1rem;
+  height: 40px;
+}
+.search {
+  background-color: #f8faff;
+  padding: 0.3rem 1rem;
+  border-radius: 11px;
+  width: 230px;
+}
+.search::placeholder {
+  margin-left: 3rem;
+}
+.new {
+  background-color: #ffa822;
+  padding: 0rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+  height: 33px;
+  color: white;
+  border-radius: 9px;
+}
+.list {
+  padding: 1rem 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+.prod_text {
+  color: #002244;
+  font-weight: 500;
+  font-size: small;
+}
+.between {
+  margin-bottom: 0.2rem;
+}

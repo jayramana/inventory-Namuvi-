@@ -1,0 +1,88 @@
+[
+    {  
+        "checked":false,
+        "name": "Adidas Nebzed",
+        "skuid": 1,
+        "stockonhand":30,
+        "Selling_Price":1000.00,
+        "Cost_Price" : 800.00,
+        "amazon": "10",
+        "flipkart":"05",
+        "meesho" : "02",
+        "ajio" : "10",
+        "myntra": "02",
+        "viewdemand" : "Low - Moderate",
+        "oppurtunity": 62.75
+
+        
+    },
+    {
+        "checked":false,
+        "name": "Adidas Nebzed",
+        "skuid": 2,
+        "stockonhand":30,
+        "Selling_Price":9000.00,
+        "Cost_Price" : 800.00,
+        "amazon": "10",
+        "flipkart":"05",
+        "meesho" : "02",
+        "ajio" : "10",
+        "myntra": "02",
+        "viewdemand": "Moderate - High",
+        "oppurtunity": 75.61
+        
+    },
+    {
+        "checked":false,
+        "name": "Adidas Nebzed",
+        "skuid": 3,
+        "stockonhand":30,
+        "Selling_Price":1000.00,
+        "Cost_Price" : 800.00,
+        "amazon": "10",
+        "flipkart":"05",
+        "meesho" : "02",
+        "ajio" : "10",
+        "myntra": "02",
+        "viewdemand" :"Moderate - High",
+        "oppurtunity": 75.61
+
+
+    },
+    {
+        "checked":false,
+        "name": "Adidas Nebzed",
+        "skuid": 4,
+        "stockonhand":30,
+        "Selling_Price":900.00,
+        "Cost_Price" : 600.00,
+        "amazon": "10",
+        "flipkart":"05",
+        "meesho" : "02",
+        "ajio" : "10",
+        "myntra": "02",
+        "viewdemand":"Low - Moderate",
+        "oppurtunity": 62.75
+
+
+    },
+    {
+        "checked":false,
+        "name": "Adidas Nebzed",
+        "skuid": 5,
+        "stockonhand":30,
+        "Selling_Price":6000.00,
+        "Cost_Price" : 1000.00,
+        "amazon": "10",
+        "flipkart":"05",
+        "meesho" : "02",
+        "ajio" : "10",
+        "myntra": "02",
+        "viewdemand":"Low - Moderate",
+        "oppurtunity": 62.75
+
+
+    }
+    
+    
+]
