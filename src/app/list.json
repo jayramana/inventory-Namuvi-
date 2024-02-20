@@ -1,3 +1,4 @@
+
 [
     {  
         "checked":false,
@@ -6,14 +7,16 @@
         "stockonhand":30,
         "Selling_Price":1000.00,
         "Cost_Price" : 800.00,
+        "src": "/image/shoe1.svg",
         "amazon": "10",
         "flipkart":"05",
         "meesho" : "02",
         "ajio" : "10",
         "myntra": "02",
         "viewdemand" : "Low - Moderate",
-        "oppurtunity": 62.75
-
+        "oppurtunity": 62.75,
+        "inc" : 1
+        
         
     },
     {
@@ -23,13 +26,15 @@
         "stockonhand":30,
         "Selling_Price":9000.00,
         "Cost_Price" : 800.00,
+        "src": "/image/water.jpg",
         "amazon": "10",
         "flipkart":"05",
         "meesho" : "02",
         "ajio" : "10",
         "myntra": "02",
         "viewdemand": "Moderate - High",
-        "oppurtunity": 75.61
+        "oppurtunity": 75.61,
+        "inc" : 1
         
     },
     {
@@ -39,14 +44,16 @@
         "stockonhand":30,
         "Selling_Price":1000.00,
         "Cost_Price" : 800.00,
+        "src": "/image/pan.jpg",
         "amazon": "10",
         "flipkart":"05",
         "meesho" : "02",
         "ajio" : "10",
         "myntra": "02",
         "viewdemand" :"Moderate - High",
-        "oppurtunity": 75.61
-
+        "oppurtunity": 75.61,
+        "inc" : 1
+        
 
     },
     {
@@ -56,15 +63,17 @@
         "stockonhand":30,
         "Selling_Price":900.00,
         "Cost_Price" : 600.00,
+        "src": "/image/shirts.png",
         "amazon": "10",
         "flipkart":"05",
         "meesho" : "02",
         "ajio" : "10",
         "myntra": "02",
         "viewdemand":"Low - Moderate",
-        "oppurtunity": 62.75
-
-
+        "oppurtunity": 62.75,
+        "inc" : 1
+        
+        
     },
     {
         "checked":false,
@@ -73,13 +82,15 @@
         "stockonhand":30,
         "Selling_Price":6000.00,
         "Cost_Price" : 1000.00,
+        "src": "/image/plastic.jpg",
         "amazon": "10",
         "flipkart":"05",
         "meesho" : "02",
         "ajio" : "10",
         "myntra": "02",
         "viewdemand":"Low - Moderate",
-        "oppurtunity": 62.75
+        "oppurtunity": 62.75,
+        "inc" : 1
 
 
     }

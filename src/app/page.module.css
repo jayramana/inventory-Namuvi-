@@ -1,12 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 .main {
   display: grid;
   grid-template-columns: 0.5fr 10fr;
   height: 100vh;
   align-items: flex-start;
+  overflow: hidden;
+  transition: all 0.1s;
 }
+
+.left{
+  transition: all 0.3s;
+  width: 70px;
+
+}
+
+.current{
+  color: #FFA823;
+}
+/* .left:hover{
+  background-color: #000;
+} */
+
 .fonth {
   font-family: "Heebo";
   color: #717171;
@@ -14,9 +30,51 @@
   font-weight: 600;
   text-transform: uppercase;
 }
-.marg_left{
+.chec{
+  color: blue;
+  transition: all 0.3s;
+}
+.chec:hover{
+  color: red;
+}
+.marg_left {
   margin-left: 1.4rem;
   margin-bottom: 1.8rem;
+}
+.low {
+  color: #e99a23;
+  font-weight: 600;
+  font-size: small;
+}
+.medium {
+  color: #34a443;
+  font-weight: 600;
+  font-size: small;
+}
+
+.lowi {
+  border: 1px solid #e99a23;
+  padding: 0.3rem 0.7rem;
+  border-radius: 11px;
+}
+.edit {
+  position: absolute;
+  right: 35%;
+  top: 20%;
+  height: fit-content;
+  width: 600px;
+  filter: brightness(1);
+  z-index: 999;
+  visibility: hidden;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  border-radius: 11px;
+  color: #000;
+}
+.mediumi {
+  border: 1px solid #34a443;
+  border-radius: 11px;
+  padding: 0.3rem 0.7rem;
 }
 
 .sub {
@@ -27,14 +85,10 @@
   padding-top: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: #002244;
-  gap: 6rem;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
 }
 .font {
   font-family: "DM Sans";
@@ -54,11 +108,10 @@
 .lp {
   font-family: "DM Sans";
   color: #b8b8b8;
-
   font-weight: 590;
   font-size: 13px;
-  display: none;
-  margin-top: .4rem;
+  visibility: hidden;
+  margin-top: 0.4rem;
   margin-bottom: 0.2rem;
 }
 .focus {
@@ -69,14 +122,15 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
-  transform: translateY(-70px);
 }
 .more {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: #FFA822;
+  background-color: #ffa822;
   width: 218px;
+  visibility: hidden;
   padding: 1rem;
   align-self: flex-start;
   gap: 0.5rem;
@@ -92,7 +146,7 @@
   color: white;
 }
 .wh {
-  color: #2D3748;
+  color: #2d3748;
   font-family: "DM Sans";
 }
 
@@ -102,9 +156,6 @@
   width: 100%;
   border-radius: 11px;
   padding: 0.3rem 0;
-}
-.left {
- 
 }
 .On {
   display: inline;
@@ -155,7 +206,7 @@
   height: 21.9px;
 }
 .catfont {
-  color: #0057AD;
+  color: #0057ad;
   font-weight: 600;
   font-size: larger;
   font-family: "DM Sans";
@@ -176,17 +227,20 @@
   grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
   padding: 0.2rem 0;
-  background-color: #F3F6F9;
+  background-color: #f3f6f9;
   width: 95%;
   margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .huge {
   gap: 0.5rem;
 }
-.ulc{
+.ulc {
   margin-left: 1.8rem;
   background-color: white;
   width: 95%;
+  border-radius: 11px;
+  padding-bottom: 0.2rem;
 }
 
 .products {
@@ -274,9 +328,37 @@
 }
 .prod_text {
   color: #002244;
-  font-weight: 500;
+  font-weight: 600;
   font-size: small;
 }
 .between {
   margin-bottom: 0.2rem;
+}
+
+.none{
+  background-color: #F3E1E0;
+  padding: 0.5rem 0.8rem;
+  transform: translateX(200px);
+  visibility: hidden;
+  border-left: 3px solid #FF2424;
+  color: #FF2424;
+  font-family: "DM Sans";
+  font-size: small;
+  border-radius: 7px;
+}
+
+.success{
+  background-color: #E1F3E0;
+  padding: 0.5rem 0.8rem;
+  transform: translateX(200px);
+  visibility: hidden;
+  width: fit-content;
+  margin-top: 2rem;
+  border-left: 3px solid #1EA343;
+  color: #1EA343;
+  transform: translateX(600%);
+  font-family: "DM Sans";
+  font-size: small;
+  border-radius: 7px;
+
 }
